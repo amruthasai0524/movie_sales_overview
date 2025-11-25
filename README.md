@@ -1,87 +1,57 @@
 # movie_sales_overview
 Analyzes movies dataset to uncover trends in box office sales, budgets, genres, and ratings. Offers visualizations and insights into what factors drive commercial success in the film industry. Suitable for EDA and data science learning.
 Overview
-This project presents a comprehensive analysis of movie sales data to understand factors that impact box office success. Using real-world datasets, we uncover trends in gross revenue, budgets, genres, ratings, and more. Our goal is to deliver actionable insights for filmmakers, studios, and investors to recognize what drives commercial performance in the film industry.
+This repository presents a comprehensive dashboard-based analysis of movie sales data, featuring four interactive dashboards. The project provides deep insights into movie performance trends, enabling users to visualize and explore key box office metrics, genre dynamics, production budgets, and ratings.
 
-Data Sources:
-Movie information (title, release year, genre, director, cast)
+Dashboards Included
+Box Office Performance
 
-Financial metrics (production budget, domestic and worldwide gross revenue)
+Visualizes domestic and global revenue by year, genre, and studio.
 
-User and critic ratings (IMDb, Rotten Tomatoes, Metacritic)
+Genre & Budget Trends
 
-Additional features (runtime, studio, release month/season)
+Analyzes the impact of genres and budgets on commercial success.
 
-(Specify your actual CSV/JSON or database source here if needed.)
+Ratings & Reviews
 
-Key Questions Explored:
-What genres and production strategies consistently achieve blockbuster sales?
+Explores correlation between audience/critic scores and movie sales.
 
-How do budgets and ratings correlate with commercial performance?
+Release Patterns
 
-How have trends in movie sales evolved over time?
+Shows the timing of releases and their sales impact (seasonality & holidays).
 
-What influence do cast, director, and studio have on gross and critical success?
+Data Sources
+Historical movie datasets: title, genre, studio, budget, revenue, ratings, release date, reviews.
 
-Methodology:
-Data cleaning and preprocessing (handling missing values, type conversion, normalization)
+Features
+Interactive charts and filters for granular exploration.
 
-Exploratory Data Analysis (EDA) with descriptive statistics
+Descriptive statistics and time series analysis.
 
-Visualization using Python libraries (matplotlib, seaborn) and/or Power BI
+Visual storytelling and actionable insights.
 
-Correlation and trend analysis (comparisons by year, genre, budget quartile)
+Technologies Used
+Power BI / Tableau (choose your tool)
 
-Insights and recommendations for movie industry stakeholders
+Python (pandas, matplotlib, seaborn) for data prep
 
-Analysis & Insights:
-Bar, line, and box plots reveal revenue distributions and temporal trends.
+SQL (database querying)
 
-Comparative analysis by genre, rating, and budget size highlights drivers of blockbuster performance.
-
-Outlier detection and deep-dives into top-grossing movies.
-
-Impact of critical ratings, release timing, and cast/studio prestige on sales.
-
-Results:
-Summary tables and visualizations available in the /notebooks or /reports folder.
-
-Key recommendations outlined in insights.md.
-
-All code and cleaned datasets provided for reproducibility.
-
-Tools & Technologies:
-Python (pandas, numpy, matplotlib, seaborn)
-
-Power BI or Tableau
-
-SQL (for database querying)
-
-Jupyter Notebook / VS Code
-
-How to Use:
+How to Use
 Clone this repository.
 
-Review the requirements.txt for needed dependencies.
+Open the dashboard files in Power BI or Tableau.
 
-Run notebooks in /notebooks to reproduce visualizations and analysis.
+Use filters and slicers to explore data interactively.
 
-Contribute by opening issues or submitting PRs for improvements!
+Review insights and summary reports for decisions and learning.
 
-Impact:
-This research empowers the movie industry to make data-driven decisions:
-
-Studios can optimize budgets and genre choices.
-
-Marketers can target periods/seasons with highest ROI.
-
-Investors gain clear evidence for financial planning.
-
-Creators understand what elements boost critical and commercial success.
+Impact
+Empowers filmmakers, studios, and analysts to make data-driven decisions in movie production, marketing, and investment strategies by visualizing critical sales trends and correlations.
 
 Author
-[Amrutha Sai Yarragodala]
+[Yarragodala Amrutha Sai]
 
-Data Science Trainee | Healthcare/Pharma enthusiast
+Data Science Enthusiast | Healthcare & Entertainment Analytics
 
-Connect via LinkedIn for project collaboration or queries.
+Contact: [www.linkedin.com/in/amruthasaiyarragodala]
